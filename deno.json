@@ -1,0 +1,16 @@
+{
+  "fmt": {
+    "files": {
+      "include": ["src/"],
+      "exclude": []
+    },
+    "options": {}
+  },
+  "lint": {
+    "files": {
+      "include": ["src/"],
+      "exclude": []
+    }
+  },
+  "compilerOptions": {}
+}
