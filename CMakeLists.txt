@@ -1,0 +1,7 @@
+set(CMAKE_GENERATOR, "mingw32-make")
+cmake_minimum_required(VERSION 3.0.0)
+set(CMAKE_C_COMPILER "gcc")
+set(CMAKE_CXX_COMPILER "g++")
+project(yourProjectName)
+file(GLOB SOURCES src/*.cpp)
+add_executable(${PROJECT_NAME} ${SOURCES})
